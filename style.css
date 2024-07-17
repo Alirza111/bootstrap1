@@ -1,0 +1,259 @@
+.navdiv2 {
+   width: 40%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.navdiv2 a:hover {
+   color: yellow;
+   transition: 1s;
+}
+
+.navdiv2 a {
+   color: white;
+}
+
+.secDiv {
+   height: 600px;
+}
+
+.divPhoto {
+   height: 730px;
+   background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+   background-size: cover;
+}
+
+.tex1 {
+   text-align: center;
+}
+
+.tex1 h1 {
+   font-size: 70px;
+}
+
+.tex1 h3 {
+   font-size: 35px;
+}
+
+.tex1 button {
+   color: white;
+   font-weight: bold;
+   background-color: #ffc801 !important;
+}
+
+.tex1 button:hover {
+   color: white;
+   opacity: 0.7;
+}
+
+.servisesDiv {
+   height: 550px;
+}
+
+.mainText h2 {
+   font-size: 50px;
+   letter-spacing: 2px;
+}
+
+.mainText p {
+   font-size: 15px;
+   letter-spacing: 2px;
+   color: grey;
+}
+
+.iconBox1 {
+   width: 150px;
+   height: 150px;
+}
+
+.icon1 p {
+   text-align: center;
+   color: grey;
+}
+
+.icon2 p {
+   text-align: center;
+   color: gray;
+}
+
+.icon3 p {
+   text-align: center;
+   color: grey;
+}
+
+.bg-hidden {
+   width: 100%;
+   height: 100%;
+   background-color: #ffc801;
+   position: absolute;
+   top: 0;
+   display: none;
+   justify-content: center;
+   align-items: center;
+   opacity: 0.7;
+}
+
+.bg-hidden i {
+   font-size: 2rem;
+   color: #fff;
+   opacity: 1;
+}
+
+
+.parentimg {
+   width: 25rem;
+   position: relative;
+   height: 19rem;
+
+}
+
+
+.parentimg:hover .bg-hidden {
+   display: flex;
+
+}
+
+.spaceDiv {
+   height: 30px;
+}
+
+.textP {
+   text-align: center;
+   height: 200px;
+
+}
+
+.secP1 {
+   background-color: #f8f9fb;
+}
+
+.secP2 {
+   background-color: #f8f9fb;
+   padding-bottom: 30px;
+}
+
+.boxAbout{
+   padding: 10px 50px;
+
+ 
+}
+.boxAboutText{
+   padding: 20px 30px;
+   font-size: 15px;
+  
+}
+.left-boxAbout{
+   left: 100px;
+  position: absolute;
+   text-align: right;
+}
+.right-boxAbout{
+   left: 50%;
+}
+.about img{
+   position: absolute;
+   right: -20px;
+   width: 160px;
+   border: 5px solid grey ;
+}
+.right-boxAbout img{
+   position: absolute;
+   left: -85px;
+}
+.left-boxAbout img{
+   position: absolute;
+  right: 25px;
+}
+.left-boxAbout .boxAboutText{
+   left: -130px;
+}
+.right-boxAbout .boxAboutText{
+   left: 15px;
+}
+.yellowBox{
+ 
+    width: 170px;
+    height: 170px;
+    background-color: #ffc801;
+    border-radius: 50%;
+    border: 5px solid grey ;
+    left: 670px;
+   
+}
+.boxLine{
+background-color: gray;
+height: 1000px;
+width: 2px;
+left: 750px;
+bottom: -50px;
+}
+
+.divHelp{
+   height: 300px;
+}
+
+.divTeam{
+  
+   background-color: #f8f9fb;
+}
+.divTeam img{
+   width: 230px;
+   border: 5px solid grey ;
+}
+.teamTextLast{
+   margin-top: 50px;
+   text-align: center;
+}
+.img-brand {
+   height: 2.75rem;
+}
+.divHelp2{
+   height: 50px;
+}
+.divWorld{
+   background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
+   background-color: black;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 700px;
+
+}
+.divInput input{
+   width: 550px;
+   padding: 22px 30px;
+   border: none;
+   border-radius: 5px;
+}
+textarea{
+   width: 600px;
+  height: 300px;
+   border: none;
+   border-radius: 5px;
+}
+form{
+   top: 200px;
+
+}
+input::placeholder{
+   font-size: 20px;
+}
+textarea::placeholder{
+   font-size: 20px;
+   padding: 10px;
+}
+.button{
+   bottom: -250px;
+   left: -700px;
+   width: 150px;
+   background-color: #ffc801;
+   border-radius: 10px;
+   padding: 20px 30px ;
+   border: none;
+   opacity: 0.7;
+}
+.divFoot{
+   height: 70px;
+}
+
+
+
